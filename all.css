@@ -1,0 +1,52 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body{
+	margin-top: 50px;
+	font: 25px  sans-serif;
+}
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding: 50px;
+}
+a {
+    color: green;
+    display: block;
+    font-size: 28px;
+    margin-top: 35px;
+}
+p{
+	margin-bottom: 30px;
+}
+form{
+	max-width: 320px;
+	margin:0 auto;
+	font-size: 16px;
+}
+label{
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+	cursor: pointer;
+	text-align: left;
+}
+input, select{
+	float:right;
+	width: 170px;
+}
+input#checkbox, input#submit {
+    background-color: green;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: auto;
+}
+input#submit {
+	margin-top: 20px;
+}
